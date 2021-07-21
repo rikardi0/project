@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Indie+Flower&family=Patrick+Hand&family=Rock+Salt&family=Zeyada&display=swap');
+:root {
+    --rosado: #d40245;
+    --rosadoOscuro: #61001f;
+    --azul: #0063b4;
+    --azulOscuro: #002341;
+    --amarillo: #ff6a06;
+    --amarilloOscuro: #853500;
+}
+
+html {
+    font-family: 'Annie Use Your Telescope';
+    margin-right: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-right: 20px double;
+    border-color: rgb(247, 95, 116);
+}
+
+button {
+    padding: 0px;
+}
+
+.img {
+    width: 242px;
+    height: 333px;
+    margin-right: 20px;
+    margin-top: 35px;
+    border: solid;
+    border-color: rgba(20, 20, 20, 0.212);
+    border-radius: 5px;
+}
+
+.full {
+    font-family: 'Indie Flower';
+    background-image: url("nota.jpg");
+    width: 200px;
+    height: fit-content;
+    margin-top: -100px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.281);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-box-shadow: 17px 27px 49px -12px #000000;
+    box-shadow: 17px 27px 49px -12px #000000;
+}
+
+#info {
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+}
+
+#calc:hover {
+    width: 240px;
+    height: 331px;
+    border-color: rgba(20, 20, 20, 0.863);
+}
+
+#rps:hover {
+    width: 240px;
+    height: 331px;
+    border-color: rgba(20, 20, 20, 0.863);
+}
+
+#eas:hover {
+    width: 240px;
+    height: 331px;
+    border-color: rgba(20, 20, 20, 0.863);
+}
+
+#imgProject {
+    display: flex;
+    list-style: none;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.note {
+    font-family: 'Zeyada';
+    text-align: center;
+    width: 85px;
+    height: fit-content;
+    border: 2px solid;
+    border-top: transparent;
+}
+
+#navBar {
+    width: 60%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navBar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+#navBar a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    text-decoration-line: underline;
+}
+
+#about {
+    background-color: var(--rosado);
+    border-color: var(--rosadoOscuro);
+}
+
+#projects {
+    background-color: var(--azul);
+    border-color: var(--azulOscuro);
+}
+
+#contact {
+    background-color: var(--amarillo);
+    border-color: var(--amarilloOscuro);
+}
+
+#footer {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#odin {
+    height: 70px;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#loading {
+    margin-top: -45px;
+    margin-bottom: 0px;
+    height: 150px;
+}
+
+section {
+    text-align: center;
+}
