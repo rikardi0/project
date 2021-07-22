@@ -49,10 +49,23 @@ button {
 
 #info {
     width: 100vw;
-    position: fixed;
+    position: absolute;
     z-index: 100;
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-height: 550px) {
+    #imgProject {
+        flex-direction: column;
+    }
+    .full {
+        background: transparent;
+        color: transparent;
+        box-shadow: 17px 27px 49px -12px #00000000;
+        -webkit-box-shadow: 17px 27px 49px -12px #00000000;
+        border: transparent;
+    }
 }
 
 #calc:hover {
@@ -74,6 +87,7 @@ button {
 }
 
 #imgProject {
+    text-align: center;
     display: flex;
     list-style: none;
     width: 90%;
@@ -149,4 +163,26 @@ button {
 
 section {
     text-align: center;
+}
+
+@media (max-width:425px) {
+    #imgProject {
+        flex-direction: column;
+    }
+    #info {
+        flex-direction: column;
+    }
+    .note {
+        margin-right: 10px;
+    }
+    .full {
+        margin-top: 0px;
+    }
+    html {
+        margin-right: 20px;
+    }
+    #footer {
+        font-size: 30px;
+        margin-top: -40px;
+    }
 }
