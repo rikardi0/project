@@ -18,6 +18,10 @@ html {
     border-color: rgb(247, 95, 116);
 }
 
+section {
+    text-align: center;
+}
+
 button {
     padding: 0px;
 }
@@ -94,65 +98,18 @@ button {
     justify-content: space-around;
 }
 
-.note {
-    font-family: 'Zeyada';
-    text-align: center;
-    width: 85px;
-    height: fit-content;
-    border: 2px solid;
-    border-top: transparent;
-}
-
-#navBar {
-    width: 60%;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    margin-top: 0;
-    z-index: 100;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-#navBar a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0);
-}
-
-#navBar a:hover {
-    color: rgb(0, 0, 0);
-    font-size: 200%;
-    text-decoration-line: underline;
-}
-
-#about {
-    background-color: var(--rosado);
-    border-color: var(--rosadoOscuro);
-}
-
-#projects {
-    background-color: var(--azul);
-    border-color: var(--azulOscuro);
-}
-
-#contact {
-    background-color: var(--amarillo);
-    border-color: var(--amarilloOscuro);
-}
-
 #footer {
     font-size: 40px;
     text-align: center;
     margin-top: -50px;
 }
 
-#odin {
-    height: 70px;
-}
-
 #footer a {
     text-decoration: none;
+}
+
+#odin {
+    height: 70px;
 }
 
 #loading {
@@ -161,11 +118,16 @@ button {
     height: 150px;
 }
 
-section {
-    text-align: center;
+@media (max-width:375px) {
+    #imgProject {
+        margin-left: -30;
+    }
 }
 
 @media (max-width:425px) {
+    html {
+        margin-right: 20px;
+    }
     #imgProject {
         flex-direction: column;
     }
@@ -177,9 +139,6 @@ section {
     }
     .full {
         margin-top: 0px;
-    }
-    html {
-        margin-right: 20px;
     }
     #footer {
         font-size: 30px;
