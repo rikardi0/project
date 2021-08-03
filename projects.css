@@ -122,11 +122,25 @@ button {
     #imgProject {
         margin-left: -30;
     }
+    .full {
+        background: transparent;
+        color: transparent;
+        box-shadow: 17px 27px 49px -12px #00000000;
+        -webkit-box-shadow: 17px 27px 49px -12px #00000000;
+        border: transparent;
+    }
 }
 
 @media (max-width:425px) {
     html {
         margin-right: 20px;
+    }
+    .full {
+        background: transparent;
+        color: transparent;
+        box-shadow: 17px 27px 49px -12px #00000000;
+        -webkit-box-shadow: 17px 27px 49px -12px #00000000;
+        border: transparent;
     }
     #imgProject {
         flex-direction: column;
